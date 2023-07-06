@@ -5,7 +5,7 @@ yellow(){ echo -e "\033[33m\033[01m$1\033[0m";}
 blue(){ echo -e "\033[36m\033[01m$1\033[0m";}
 chmod a+x ./python/nginx.sh
 ./python/nginx.sh
-uuid=$(grep -oE -m1 '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}' /tmp/config.json)
+uuid="b023cea5-6f82-477b-ae99-cb11d4ff322b"
 echo
 green "========================================="
 echo
